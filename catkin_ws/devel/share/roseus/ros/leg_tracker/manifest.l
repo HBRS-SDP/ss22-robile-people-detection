@@ -1,0 +1,1 @@
+/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/share/roseus/ros/leg_tracker/manifest.l

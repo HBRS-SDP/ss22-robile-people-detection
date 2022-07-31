@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/setup.sh

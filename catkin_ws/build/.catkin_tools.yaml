@@ -1,0 +1,6 @@
+devel_space: /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel
+install: false
+install_space: /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/install
+profile: default
+source_space: /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src
+workspace: /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws

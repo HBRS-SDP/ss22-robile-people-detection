@@ -1,0 +1,8 @@
+prefix=/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/install
+
+Name: leg_tracker
+Description: Description of leg_tracker
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
