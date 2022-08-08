@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/lib/leg_tracker/extract_positive_training_clusters"
-  "/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/lib/leg_tracker/extract_positive_training_clusters.pdb"
+  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/leg_tracker/extract_positive_training_clusters"
+  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/leg_tracker/extract_positive_training_clusters.pdb"
   "CMakeFiles/extract_positive_training_clusters.dir/src/extract_positive_training_clusters.cpp.o"
   "CMakeFiles/extract_positive_training_clusters.dir/src/laser_processor.cpp.o"
 )

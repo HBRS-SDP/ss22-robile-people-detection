@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/Leg.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/Leg.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/Point.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/LegArray.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/LegArray.h
 string
 -
 vector
@@ -44,13 +44,13 @@ std_msgs/Header.h
 leg_tracker/Leg.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
 laser_processor.h
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
 sensor_msgs/LaserScan.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
 unistd.h
 -
 math.h
@@ -74,13 +74,13 @@ algorithm
 tf/transform_datatypes.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/cluster_features.cpp
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/cluster_features.cpp
 leg_tracker/cluster_features.h
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/leg_tracker/cluster_features.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/leg_tracker/cluster_features.h
 opencv2/core.hpp
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/detect_leg_clusters.cpp
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/detect_leg_clusters.cpp
 ros/ros.h
 -
 tf/transform_listener.h
@@ -104,7 +104,7 @@ leg_tracker/Leg.h
 leg_tracker/LegArray.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/laser_processor.cpp
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
 leg_tracker/laser_processor.h
 -
 

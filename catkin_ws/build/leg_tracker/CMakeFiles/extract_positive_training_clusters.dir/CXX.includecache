@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
 laser_processor.h
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
 sensor_msgs/LaserScan.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
 unistd.h
 -
 math.h
@@ -36,7 +36,7 @@ algorithm
 tf/transform_datatypes.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/extract_positive_training_clusters.cpp
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/extract_positive_training_clusters.cpp
 ros/ros.h
 -
 rosbag/bag.h
@@ -68,7 +68,7 @@ boost/foreach.hpp
 math.h
 -
 
-/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker/src/laser_processor.cpp
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
 leg_tracker/laser_processor.h
 -
 

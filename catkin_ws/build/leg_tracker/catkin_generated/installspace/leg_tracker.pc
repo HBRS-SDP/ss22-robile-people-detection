@@ -1,4 +1,4 @@
-prefix=/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/install
+prefix=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install
 
 Name: leg_tracker
 Description: Description of leg_tracker

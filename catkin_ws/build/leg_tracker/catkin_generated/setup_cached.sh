@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker:$CMAKE_PREFIX_PATH"
-export PWD='/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/devel/.private/leg_tracker/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker:$CMAKE_PREFIX_PATH"
+export PWD='/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker:$ROS_PACKAGE_PATH"
