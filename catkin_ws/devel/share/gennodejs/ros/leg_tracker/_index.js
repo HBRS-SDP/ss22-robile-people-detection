@@ -1,1 +1,0 @@
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/_index.js

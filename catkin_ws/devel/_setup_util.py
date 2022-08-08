@@ -1,1 +1,0 @@
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/_setup_util.py
