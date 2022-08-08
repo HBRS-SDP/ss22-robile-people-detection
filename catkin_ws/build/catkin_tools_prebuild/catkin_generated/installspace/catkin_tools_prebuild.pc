@@ -1,4 +1,4 @@
-prefix=/home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/install
+prefix=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

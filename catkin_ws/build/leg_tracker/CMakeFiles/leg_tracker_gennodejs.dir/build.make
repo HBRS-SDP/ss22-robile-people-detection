@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker
+CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker
+CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker
 
 # Utility rule file for leg_tracker_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/leg_tracker_gennodejs.dir/clean:
 .PHONY : CMakeFiles/leg_tracker_gennodejs.dir/clean
 
 CMakeFiles/leg_tracker_gennodejs.dir/depend:
-	cd /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/src/leg_tracker /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker /home/sam/Documents/HS-BRS/SDP/SDP/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leg_tracker_gennodejs.dir/depend
 
