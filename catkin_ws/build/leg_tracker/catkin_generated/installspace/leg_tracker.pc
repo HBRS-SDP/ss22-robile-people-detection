@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install
+=======
+prefix=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 Name: leg_tracker
 Description: Description of leg_tracker

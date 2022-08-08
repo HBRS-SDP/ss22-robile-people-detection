@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install")
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +43,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/gtest/googlemock/cmake_install.cmake")
+=======
+  include("/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/gtest/googlemock/cmake_install.cmake")
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 endif()
 

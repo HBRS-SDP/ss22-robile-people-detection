@@ -217,8 +217,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/catkin_tools_prebuild/package.xml.stamp"
   "catkin_generated/pkg.develspace.context.pc.py"
   "catkin_generated/stamps/catkin_tools_prebuild/pkg.pc.em.stamp"
+<<<<<<< HEAD
   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake"
   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake"
+=======
+  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake"
+  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake"
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   "catkin_generated/pkg.installspace.context.pc.py"
   "catkin_generated/stamps/catkin_tools_prebuild/pkg.pc.em.stamp"
   "catkin_generated/installspace/catkin_tools_prebuildConfig.cmake"

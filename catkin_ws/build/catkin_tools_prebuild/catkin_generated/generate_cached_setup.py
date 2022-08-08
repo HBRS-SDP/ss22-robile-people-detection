@@ -12,16 +12,26 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
+<<<<<<< HEAD
     for workspace in '/opt/ros/noetic'.split(';'):
+=======
+    for workspace in '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel;/opt/ros/noetic'.split(';'):
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
+<<<<<<< HEAD
 code = generate_environment_script('/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/env.sh')
 
 output_filename = '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/catkin_generated/setup_cached.sh'
+=======
+code = generate_environment_script('/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild/env.sh')
+
+output_filename = '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/catkin_generated/setup_cached.sh'
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

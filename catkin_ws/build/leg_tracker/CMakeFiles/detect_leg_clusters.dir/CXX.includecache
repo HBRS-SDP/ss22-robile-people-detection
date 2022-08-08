@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/Leg.h
+=======
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/Leg.h
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 string
 -
 vector
@@ -24,7 +28,11 @@ ros/message_operations.h
 geometry_msgs/Point.h
 -
 
+<<<<<<< HEAD
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/LegArray.h
+=======
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/LegArray.h
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 string
 -
 vector
@@ -44,6 +52,7 @@ std_msgs/Header.h
 leg_tracker/Leg.h
 -
 
+<<<<<<< HEAD
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
 laser_processor.h
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
@@ -51,6 +60,15 @@ sensor_msgs/LaserScan.h
 -
 
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+=======
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/cluster_features.h
+laser_processor.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+sensor_msgs/LaserScan.h
+-
+
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 unistd.h
 -
 math.h
@@ -74,6 +92,7 @@ algorithm
 tf/transform_datatypes.h
 -
 
+<<<<<<< HEAD
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/cluster_features.cpp
 leg_tracker/cluster_features.h
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/leg_tracker/cluster_features.h
@@ -81,6 +100,15 @@ opencv2/core.hpp
 -
 
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/detect_leg_clusters.cpp
+=======
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/cluster_features.cpp
+leg_tracker/cluster_features.h
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/leg_tracker/cluster_features.h
+opencv2/core.hpp
+-
+
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/detect_leg_clusters.cpp
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 ros/ros.h
 -
 tf/transform_listener.h
@@ -104,7 +132,11 @@ leg_tracker/Leg.h
 leg_tracker/LegArray.h
 -
 
+<<<<<<< HEAD
 /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
+=======
+/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 leg_tracker/laser_processor.h
 -
 

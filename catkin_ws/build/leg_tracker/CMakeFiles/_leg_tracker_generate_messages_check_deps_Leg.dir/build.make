@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker
+=======
+CMAKE_SOURCE_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 # Utility rule file for _leg_tracker_generate_messages_check_deps_Leg.
 
@@ -54,7 +61,11 @@ CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-de
 include CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/progress.make
 
 CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg:
+<<<<<<< HEAD
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg geometry_msgs/Point
+=======
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg geometry_msgs/Point
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 _leg_tracker_generate_messages_check_deps_Leg: CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg
 _leg_tracker_generate_messages_check_deps_Leg: CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/build.make
@@ -71,6 +82,10 @@ CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/clean:
 .PHONY : CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/clean
 
 CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/depend:
+<<<<<<< HEAD
 	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 .PHONY : CMakeFiles/_leg_tracker_generate_messages_check_deps_Leg.dir/depend
 

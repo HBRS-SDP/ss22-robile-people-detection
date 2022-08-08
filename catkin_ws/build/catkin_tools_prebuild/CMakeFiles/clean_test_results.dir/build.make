@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
+=======
+CMAKE_SOURCE_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +61,11 @@ CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-de
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
+<<<<<<< HEAD
 	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/test_results
+=======
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/test_results
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +82,10 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
+<<<<<<< HEAD
 	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

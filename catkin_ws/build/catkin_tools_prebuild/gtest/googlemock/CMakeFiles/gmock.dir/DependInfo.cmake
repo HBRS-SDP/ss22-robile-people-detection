@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+=======
+  "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +28,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+=======
+  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   )
 
 # Fortran module output directory.

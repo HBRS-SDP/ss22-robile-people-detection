@@ -67,14 +67,23 @@ set(leg_tracker_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(leg_tracker_SOURCE_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker)
   set(leg_tracker_DEVEL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker)
+=======
+  set(leg_tracker_SOURCE_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker)
+  set(leg_tracker_DEVEL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   set(leg_tracker_INSTALL_PREFIX "")
   set(leg_tracker_PREFIX ${leg_tracker_DEVEL_PREFIX})
 else()
   set(leg_tracker_SOURCE_PREFIX "")
   set(leg_tracker_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(leg_tracker_INSTALL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install)
+=======
+  set(leg_tracker_INSTALL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   set(leg_tracker_PREFIX ${leg_tracker_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +100,15 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(leg_tracker_FOUND_CATKIN_PROJECT TRUE)
 
+<<<<<<< HEAD
 if(NOT "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include " STREQUAL " ")
   set(leg_tracker_INCLUDE_DIRS "")
   set(_include_dirs "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include")
+=======
+if(NOT "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include " STREQUAL " ")
+  set(leg_tracker_INCLUDE_DIRS "")
+  set(_include_dirs "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include")
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +125,11 @@ if(NOT "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/cat
         message(FATAL_ERROR "Project 'leg_tracker' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'leg_tracker' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'leg_tracker' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/${idir}'.  ${_report}")
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
     endif()
     _list_append_unique(leg_tracker_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +173,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

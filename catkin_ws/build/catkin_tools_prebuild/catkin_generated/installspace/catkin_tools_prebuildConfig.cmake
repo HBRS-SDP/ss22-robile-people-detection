@@ -67,14 +67,23 @@ set(catkin_tools_prebuild_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(catkin_tools_prebuild_SOURCE_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild)
   set(catkin_tools_prebuild_DEVEL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild)
+=======
+  set(catkin_tools_prebuild_SOURCE_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild)
+  set(catkin_tools_prebuild_DEVEL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/catkin_tools_prebuild)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   set(catkin_tools_prebuild_INSTALL_PREFIX "")
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_DEVEL_PREFIX})
 else()
   set(catkin_tools_prebuild_SOURCE_PREFIX "")
   set(catkin_tools_prebuild_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(catkin_tools_prebuild_INSTALL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install)
+=======
+  set(catkin_tools_prebuild_INSTALL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +163,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install/lib;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -9,10 +9,9 @@ To check that you've selected the right clusters, play back the generated bagfil
   <param name="min_points_per_cluster" value="3" />
   <param name="cluster_dist_euclid" value="0.13" />
 
-   <!-- first rosbag file with positive examples -->
   <node pkg="leg_tracker" type="extract_positive_training_clusters" name="extract_positive_training_clusters1" output="screen">
-    <param name="load_bag_file" value="$(find leg_tracker)/rosbags/Bags_Robile/positive_training_bags_static/2022-07-13-11-02-26.bag"/>
-    <param name="save_bag_file" value="$(find leg_tracker)/rosbags/positive_static_TEST.bag"/>
+    <param name="load_bag_file" value="$(find leg_tracker)/rosbags/Bags_Robile/positive_training_bags_static/2022-07-13-10-53-48.bag"/>
+    <param name="save_bag_file" value="$(find leg_tracker)/rosbags/positive_extracted/10-53-48_extracted.bag"/>
     <param name="scan_topic" value="/scan_filtered"/>
     <param name="base_laser" value="base_laser"/>
     <!-- <param name="min_angle" value="-60"/> 
@@ -22,7 +21,21 @@ To check that you've selected the right clusters, play back the generated bagfil
     <param name="x_max" value ="2.2"/> 
     <param name="y_min" value ="-1.0"/> 
     <param name="y_max" value ="1.0"/> 
-  </node>         
+  </node> 
+
+  <node pkg="leg_tracker" type="extract_positive_training_clusters" name="extract_positive_training_clusters2" output="screen">
+    <param name="load_bag_file" value="$(find leg_tracker)/rosbags/Bags_Robile/positive_training_bags_static/2022-07-13-10-54-36.bag"/>
+    <param name="save_bag_file" value="$(find leg_tracker)/rosbags/positive_extracted/10-54-36_extracted.bag"/>
+    <param name="scan_topic" value="/scan_filtered"/>
+    <param name="base_laser" value="base_laser"/>
+    <!-- <param name="min_angle" value="-60"/> 
+    <param name="max_angle" value="180"/> 
+    <param name="max_dist" value="2.5"/>  -->
+    <param name="x_min" value ="0"/> 
+    <param name="x_max" value ="2.2"/> 
+    <param name="y_min" value ="-1.0"/> 
+    <param name="y_max" value ="1.0"/> 
+  </node>           
 
   
   <!-- This is just an example showing you how you can also specify a bounding box for the positive clusters if you want. I don't think it will run because the bag files aren't there. -->

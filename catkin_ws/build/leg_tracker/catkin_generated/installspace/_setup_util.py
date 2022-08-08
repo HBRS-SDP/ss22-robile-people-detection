@@ -268,7 +268,11 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
+<<<<<<< HEAD
             CMAKE_PREFIX_PATH = r'/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel;/opt/ros/noetic'.split(';')
+=======
+            CMAKE_PREFIX_PATH = r'/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel;/opt/ros/noetic'.split(';')
+>>>>>>> d990f7bc638fef2102570700d7c941d5fd9e4f7c
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
