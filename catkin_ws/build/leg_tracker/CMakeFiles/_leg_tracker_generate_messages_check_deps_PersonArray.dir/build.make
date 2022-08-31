@@ -54,7 +54,11 @@ CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-de
 include CMakeFiles/_leg_tracker_generate_messages_check_deps_PersonArray.dir/progress.make
 
 CMakeFiles/_leg_tracker_generate_messages_check_deps_PersonArray:
+<<<<<<< HEAD
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg leg_tracker/Person:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point
+=======
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py leg_tracker /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg std_msgs/Header:leg_tracker/Person:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose
+>>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
 
 _leg_tracker_generate_messages_check_deps_PersonArray: CMakeFiles/_leg_tracker_generate_messages_check_deps_PersonArray
 _leg_tracker_generate_messages_check_deps_PersonArray: CMakeFiles/_leg_tracker_generate_messages_check_deps_PersonArray.dir/build.make
