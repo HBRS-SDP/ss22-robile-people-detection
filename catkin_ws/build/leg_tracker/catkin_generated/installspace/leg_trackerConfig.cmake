@@ -67,14 +67,14 @@ set(leg_tracker_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(leg_tracker_SOURCE_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker)
-  set(leg_tracker_DEVEL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker)
+  set(leg_tracker_SOURCE_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker)
+  set(leg_tracker_DEVEL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker)
   set(leg_tracker_INSTALL_PREFIX "")
   set(leg_tracker_PREFIX ${leg_tracker_DEVEL_PREFIX})
 else()
   set(leg_tracker_SOURCE_PREFIX "")
   set(leg_tracker_DEVEL_PREFIX "")
-  set(leg_tracker_INSTALL_PREFIX /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install)
+  set(leg_tracker_INSTALL_PREFIX /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install)
   set(leg_tracker_PREFIX ${leg_tracker_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/install/lib;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/lib;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -std=c++11  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/gtest/lib ../lib/libgtest.so -lpthread 
+/usr/bin/c++ -fPIC -std=c++11  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/gtest/lib ../lib/libgtest.so -lpthread 
