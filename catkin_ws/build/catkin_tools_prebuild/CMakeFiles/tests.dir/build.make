@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
+CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
+CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

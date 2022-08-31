@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1835f/fast && /usr/bin/make -f CMakeFiles/cmTC_1835f.dir/build.make CMakeFiles/cmTC_1835f.dir/build
-make[1]: Entering directory '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1835f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1835f.dir/src.c.o   -c /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_1835f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1835f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_1835f.dir/src.c.o  -o cmTC_1835f 
-/usr/bin/ld: CMakeFiles/cmTC_1835f.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_aa5e6/fast && /usr/bin/make -f CMakeFiles/cmTC_aa5e6.dir/build.make CMakeFiles/cmTC_aa5e6.dir/build
+make[1]: Entering directory '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa5e6.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aa5e6.dir/src.c.o   -c /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa5e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa5e6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_aa5e6.dir/src.c.o  -o cmTC_aa5e6 
+/usr/bin/ld: CMakeFiles/cmTC_aa5e6.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_1835f.dir/build.make:87: cmTC_1835f] Error 1
-make[1]: Leaving directory '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_1835f/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_aa5e6.dir/build.make:87: cmTC_aa5e6] Error 1
+make[1]: Leaving directory '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aa5e6/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9bf92/fast && /usr/bin/make -f CMakeFiles/cmTC_9bf92.dir/build.make CMakeFiles/cmTC_9bf92.dir/build
-make[1]: Entering directory '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9bf92.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9bf92.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9bf92
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bf92.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9bf92.dir/CheckFunctionExists.c.o  -o cmTC_9bf92  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_71bfb/fast && /usr/bin/make -f CMakeFiles/cmTC_71bfb.dir/build.make CMakeFiles/cmTC_71bfb.dir/build
+make[1]: Entering directory '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71bfb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_71bfb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71bfb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_71bfb.dir/CheckFunctionExists.c.o  -o cmTC_71bfb  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_9bf92.dir/build.make:87: cmTC_9bf92] Error 1
-make[1]: Leaving directory '/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_9bf92/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_71bfb.dir/build.make:87: cmTC_71bfb] Error 1
+make[1]: Leaving directory '/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_71bfb/fast] Error 2
 
 
 

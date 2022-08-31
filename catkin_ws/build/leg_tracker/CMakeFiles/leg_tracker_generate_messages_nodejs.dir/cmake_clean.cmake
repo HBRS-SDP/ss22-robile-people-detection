@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js"
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js"
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js"
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js"
+  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js"
+  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js"
+  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js"
+  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js"
   "CMakeFiles/leg_tracker_generate_messages_nodejs"
 )
 
