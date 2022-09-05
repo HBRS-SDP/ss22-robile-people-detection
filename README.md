@@ -18,8 +18,14 @@ See the parent repositories for additional details on how the leg detection work
 
 If the LiDAR points and visualization markers are not appearing, then you may have to make some changes to the launch file.
 1. Open the launch file with the editor of your choice.
-2. Enter the topic name for your laser scan data in <param name='scan_topic" value='/scan_filtered" />. Replace /scan_filtered with the name of your laser scan topic.
-3. Enter the base frame being used by your LiDAR in <param name="fixed_frame" value="base_laser"/>. Replace base_laser with the base frame you are using.
-4. Enter the desired frequency in <param name="scan_frequency" value="15"/>, replacing 15 with your desired value. This value is in Hertz, and has the possible options of 7.5Hz, 10Hz, and 15Hz. Other options may require retraining the leg detector.
+2. Enter the topic name for your laser scan data in param name='scan_topic" value='/scan_filtered" . Replace /scan_filtered with the name of your laser scan topic.
+3. Enter the base frame being used by your LiDAR in param name="fixed_frame" value="base_laser". Replace base_laser with the base frame you are using.
+4. Enter the desired frequency in param name="scan_frequency" value="15", replacing 15 with your desired value. This value is in Hertz, and has the possible options of 7.5Hz, 10Hz, and 15Hz. Other options may require retraining the leg detector.
 5. If you do not have your laser scan topic name or base frame data, you can check it via the terminal. Open the terminal and type: rostopic list. Find the name of your laser scan topic within the list, often /scan or /scan_filtered on the Robile. 
 6. To find the base frame of the topic, enter: rostopic echo topic_name -n 1. Replace topic_name with the name of your scan topic. This will echo the first message from the topic. Scroll to the top of the message, where the header is. The frame_id paramter will show the name of the base frame for the scan topic. The minimum and maximum angles of the LiDAR view are also given here in radians (as well as the angle increment), and the minimum and maximum range of the LiDAR is given in meters. 
+  
+# Tunable parameters
+
+# How to retrain the leg detector
+  
+# How to make a new rosbag dataset 
