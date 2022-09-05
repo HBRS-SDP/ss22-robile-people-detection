@@ -5,7 +5,9 @@ See the parent repositories for additional details on how the leg detection work
 
 # Prerequisites
 Pykalman and Scipy are required to run this package.
+
 python3 -m pip install scipy
+
 python3 -m pip install pykalman
 
 # Steps for use
