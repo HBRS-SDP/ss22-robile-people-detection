@@ -59,11 +59,49 @@ To add a parameter to the launch file, use the following format:
 
 Replace parameter_name and parameter_value with the appropriate names and values. Useful parameters are described below.
 
-Markup : * max_detected_clusters
-              * The maximum number of clusters that will be tracked. It does closest to farthest, not cluster size. The default value is -1, for unlimited clusters.
-          * forest_file
-              * 
+1. max_detected_clusters
 
+The maximum number of clusters that will be tracked. It does closest to farthest, not cluster size. The default value is -1, for unlimited clusters.
+
+2. forest_file
+
+The path to the .yaml file containing the parameters for the random forest model. 
+
+3. detection_threshold
+
+The confidence threshold necessary to publish detected clusters. If the model does not have high confidence that the cluster is a leg, it will not be published. The default value is -1, meaning no threshold.
+
+4. cluster_dist_euclid
+
+The maximum distance between two points for them to be clustered together. The default value is 0.13 meters.
+
+5. min_points_per_cluster
+
+The minimum number of points necessary to create a cluster. The default value is 3.
+
+6. max_detect_distance
+
+The maximum distance at which clusters will be detected. Reducing this value improves run speed. The default value is 10 meters.
+
+7. max_leg_pairing_dist
+
+The maximum distance between a pair of legs for them to be considered as belonging to the same individual. The default value is 0.8 meters.
+
+8. confidence_threshold_to_maintain_track
+
+The confidence threshold determines how confident the model must be that a set of clusters are legs to begin and maintain a person track. The default value is 0.1, but it must be retuned if the leg detector is retrained.
+
+9. dist_travelled_together_to_initiate_leg_pair
+
+The distance a pair of legs must travel together to begin person tracking.
+
+10. confidence_percentile
+
+The confidence percentile used for matching clusters to person tracks. Increasing the percentile increases the distance with which tracks will match to new clusters. These distances are called gates, and are visible as circles around the person visualization markers in RVIZ. The default value is 0.9.
+
+11. max_std
+
+The maximum standard deviation of the covariance of a track. If the track's covariance exceeds this, the track is deleted. The default value is 0.9.
 
 # How to retrain the leg detector
 To retrain the leg detector, a new dataset must be made for the environment that the robot will be working in (see section below). Once the dataset is made, you will need to edit extract_positive_training_clusters_PositiveStatic.launch. It can be found in /catkin_ws/src/leg_tracker/launch/training. Two parameters need to be set, the minimum number of points per cluster in line 9 and the euclidian distance between points in a cluster in line 10. These can often be left at the default values, or changed if tighter restrictions on the cluster definition are desired. 
