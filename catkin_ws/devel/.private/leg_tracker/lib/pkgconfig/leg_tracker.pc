@@ -1,8 +1,0 @@
-prefix=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker
-
-Name: leg_tracker
-Description: Description of leg_tracker
-Version: 0.0.0
-Cflags: -I/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

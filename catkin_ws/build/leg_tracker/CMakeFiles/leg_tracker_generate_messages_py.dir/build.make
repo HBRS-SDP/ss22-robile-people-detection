@@ -43,132 +43,83 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker
+CMAKE_SOURCE_DIR = /home/studentkelo/ss22-robile-people-detection/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker
+CMAKE_BINARY_DIR = /home/studentkelo/ss22-robile-people-detection/catkin_ws/build
 
 # Utility rule file for leg_tracker_generate_messages_py.
 
 # Include the progress variables for this target.
-include CMakeFiles/leg_tracker_generate_messages_py.dir/progress.make
+include leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/progress.make
 
-<<<<<<< HEAD
-CMakeFiles/leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py
-
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG leg_tracker/Person"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG leg_tracker/PersonArray"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG leg_tracker/Leg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG leg_tracker/LegArray"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for leg_tracker"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg --initpy
-=======
-CMakeFiles/leg_tracker_generate_messages_py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
-CMakeFiles/leg_tracker_generate_messages_py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py
 
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG leg_tracker/Person"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG leg_tracker/Person"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG leg_tracker/PersonArray"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG leg_tracker/PersonArray"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG leg_tracker/Leg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG leg_tracker/Leg"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG leg_tracker/LegArray"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG leg_tracker/LegArray"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for leg_tracker"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg --initpy
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for leg_tracker"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg --initpy
 
-leg_tracker_generate_messages_py: CMakeFiles/leg_tracker_generate_messages_py
-leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Person.py
-leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
-leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
-leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
-leg_tracker_generate_messages_py: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker/msg/__init__.py
-leg_tracker_generate_messages_py: CMakeFiles/leg_tracker_generate_messages_py.dir/build.make
+leg_tracker_generate_messages_py: leg_tracker/CMakeFiles/leg_tracker_generate_messages_py
+leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Person.py
+leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_PersonArray.py
+leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_Leg.py
+leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/_LegArray.py
+leg_tracker_generate_messages_py: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker/msg/__init__.py
+leg_tracker_generate_messages_py: leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/build.make
 
 .PHONY : leg_tracker_generate_messages_py
 
 # Rule to build all files generated by this target.
-CMakeFiles/leg_tracker_generate_messages_py.dir/build: leg_tracker_generate_messages_py
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/build: leg_tracker_generate_messages_py
 
-.PHONY : CMakeFiles/leg_tracker_generate_messages_py.dir/build
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/build
 
-CMakeFiles/leg_tracker_generate_messages_py.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/leg_tracker_generate_messages_py.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/leg_tracker_generate_messages_py.dir/clean
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/clean:
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -P CMakeFiles/leg_tracker_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/clean
 
-CMakeFiles/leg_tracker_generate_messages_py.dir/depend:
-	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/leg_tracker_generate_messages_py.dir/depend
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/depend:
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/studentkelo/ss22-robile-people-detection/catkin_ws/src /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/studentkelo/ss22-robile-people-detection/catkin_ws/build /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_py.dir/depend
 

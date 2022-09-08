@@ -2,7 +2,7 @@
 
 message(STATUS "leg_tracker: 4 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,36 +17,24 @@ add_custom_target(leg_tracker_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_custom_target(_leg_tracker_generate_messages_check_deps_${_filename}
-<<<<<<< HEAD
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point"
-=======
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" "geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_custom_target(_leg_tracker_generate_messages_check_deps_${_filename}
-<<<<<<< HEAD
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" "leg_tracker/Person:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
-=======
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" "std_msgs/Header:leg_tracker/Person:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" "leg_tracker/Person:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_custom_target(_leg_tracker_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_custom_target(_leg_tracker_generate_messages_check_deps_${_filename}
-<<<<<<< HEAD
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" "std_msgs/Header:geometry_msgs/Point:leg_tracker/Leg"
-=======
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" "leg_tracker/Leg:std_msgs/Header:geometry_msgs/Point"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "leg_tracker" "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" "geometry_msgs/Point:leg_tracker/Leg:std_msgs/Header"
 )
 
 #
@@ -56,35 +44,27 @@ add_custom_target(_leg_tracker_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_cpp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-=======
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_cpp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_cpp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-=======
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/leg_tracker
 )
 
@@ -102,13 +82,13 @@ add_custom_target(leg_tracker_generate_messages_cpp
 add_dependencies(leg_tracker_generate_messages leg_tracker_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_cpp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_cpp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_cpp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_cpp _leg_tracker_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -121,35 +101,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS leg_tracker_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_eus(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-=======
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_eus(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_eus(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-=======
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/leg_tracker
 )
 
@@ -167,13 +139,13 @@ add_custom_target(leg_tracker_generate_messages_eus
 add_dependencies(leg_tracker_generate_messages leg_tracker_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_eus _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_eus _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_eus _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_eus _leg_tracker_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,35 +158,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS leg_tracker_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_lisp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-=======
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_lisp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_lisp(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-=======
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/leg_tracker
 )
 
@@ -232,13 +196,13 @@ add_custom_target(leg_tracker_generate_messages_lisp
 add_dependencies(leg_tracker_generate_messages leg_tracker_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_lisp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_lisp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_lisp _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_lisp _leg_tracker_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -251,35 +215,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS leg_tracker_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_nodejs(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-=======
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_nodejs(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_nodejs(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-=======
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/leg_tracker
 )
 
@@ -297,13 +253,13 @@ add_custom_target(leg_tracker_generate_messages_nodejs
 add_dependencies(leg_tracker_generate_messages leg_tracker_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_nodejs _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_nodejs _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_nodejs _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_nodejs _leg_tracker_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -316,35 +272,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS leg_tracker_generate_messages_nodej
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_py(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-=======
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_py(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/leg_tracker
 )
 _generate_msg_py(leg_tracker
-  "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+  "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
   "${MSG_I_FLAGS}"
-<<<<<<< HEAD
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-=======
-  "/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/leg_tracker
 )
 
@@ -362,13 +310,13 @@ add_custom_target(leg_tracker_generate_messages_py
 add_dependencies(leg_tracker_generate_messages leg_tracker_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_py _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_py _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_py _leg_tracker_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
+get_filename_component(_filename "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg" NAME_WE)
 add_dependencies(leg_tracker_generate_messages_py _leg_tracker_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

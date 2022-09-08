@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/Leg.h
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/include/leg_tracker/Leg.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/Point.h
 -
 
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker/LegArray.h
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/include/leg_tracker/LegArray.h
 string
 -
 vector
@@ -44,7 +44,7 @@ std_msgs/Header.h
 leg_tracker/Leg.h
 -
 
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/include/leg_tracker/laser_processor.h
 unistd.h
 -
 math.h
@@ -68,11 +68,11 @@ algorithm
 tf/transform_datatypes.h
 -
 
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/laser_processor.cpp
 leg_tracker/laser_processor.h
 -
 
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/local_occupancy_grid_mapping.cpp
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/src/local_occupancy_grid_mapping.cpp
 ros/ros.h
 -
 tf/transform_listener.h

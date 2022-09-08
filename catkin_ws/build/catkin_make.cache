@@ -1,0 +1,2 @@
+leg_tracker
+-DCATKIN_DEVEL_PREFIX=/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/studentkelo/ss22-robile-people-detection/catkin_ws/install -G Unix Makefiles

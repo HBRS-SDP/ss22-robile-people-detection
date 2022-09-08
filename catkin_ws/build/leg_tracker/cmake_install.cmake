@@ -1,8 +1,8 @@
-# Install script for directory: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker
+# Install script for directory: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/studentkelo/ss22-robile-people-detection/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,173 +38,66 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  
-      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
-        file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
-      endif()
-      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin")
-        file(WRITE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin" "")
-      endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/_setup_util.py")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE PROGRAM FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/_setup_util.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/env.sh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE PROGRAM FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/env.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/setup.bash;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/local_setup.bash")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE FILE FILES
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/setup.bash"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/local_setup.bash"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/setup.sh;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/local_setup.sh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE FILE FILES
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/setup.sh"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/local_setup.sh"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/setup.zsh;/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/local_setup.zsh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE FILE FILES
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/setup.zsh"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/local_setup.zsh"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install/.rosinstall")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/install" TYPE FILE FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/.rosinstall")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/msg" TYPE FILE FILES
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/cmake" TYPE FILE FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/cmake" TYPE FILE FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/include/leg_tracker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/include/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/roseus/ros/leg_tracker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/roseus/ros/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/common-lisp/ros/leg_tracker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/common-lisp/ros/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/lib/python3/dist-packages/leg_tracker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/lib/python3/dist-packages/leg_tracker")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/cmake" TYPE FILE FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/cmake" TYPE FILE FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_tracker-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker/cmake" TYPE FILE FILES
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_trackerConfig.cmake"
-    "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_trackerConfig-version.cmake"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_trackerConfig.cmake"
+    "/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/catkin_generated/installspace/leg_trackerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker" TYPE FILE FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leg_tracker" TYPE FILE FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_tracker" TYPE PROGRAM FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/scripts/joint_leg_tracker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_tracker" TYPE PROGRAM FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/scripts/joint_leg_tracker.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_tracker" TYPE PROGRAM FILES "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/scripts/individual_leg_tracker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/leg_tracker" TYPE PROGRAM FILES "/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/scripts/individual_leg_tracker.py")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/gtest/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

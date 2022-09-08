@@ -43,113 +43,73 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker
+CMAKE_SOURCE_DIR = /home/studentkelo/ss22-robile-people-detection/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker
+CMAKE_BINARY_DIR = /home/studentkelo/ss22-robile-people-detection/catkin_ws/build
 
 # Utility rule file for leg_tracker_generate_messages_nodejs.
 
 # Include the progress variables for this target.
-include CMakeFiles/leg_tracker_generate_messages_nodejs.dir/progress.make
+include leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/progress.make
 
-<<<<<<< HEAD
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js
-
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from leg_tracker/Person.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from leg_tracker/PersonArray.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from leg_tracker/Leg.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
-
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from leg_tracker/LegArray.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
-=======
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js
-CMakeFiles/leg_tracker_generate_messages_nodejs: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Leg.js
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js
 
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from leg_tracker/Person.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from leg_tracker/Person.msg"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from leg_tracker/PersonArray.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Person.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from leg_tracker/PersonArray.msg"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/PersonArray.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from leg_tracker/Leg.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Leg.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Leg.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from leg_tracker/Leg.msg"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg
 
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from leg_tracker/LegArray.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/sam/Documents/HS-BRS/SDP/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg
->>>>>>> e0d9fed50d9e94420119dab5cec05a86861d173e
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/Leg.msg
+/home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/studentkelo/ss22-robile-people-detection/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from leg_tracker/LegArray.msg"
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg/LegArray.msg -Ileg_tracker:/home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p leg_tracker -o /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg
 
-leg_tracker_generate_messages_nodejs: CMakeFiles/leg_tracker_generate_messages_nodejs
-leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Person.js
-leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/PersonArray.js
-leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/Leg.js
-leg_tracker_generate_messages_nodejs: /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/devel/.private/leg_tracker/share/gennodejs/ros/leg_tracker/msg/LegArray.js
-leg_tracker_generate_messages_nodejs: CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build.make
+leg_tracker_generate_messages_nodejs: leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs
+leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Person.js
+leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/PersonArray.js
+leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/Leg.js
+leg_tracker_generate_messages_nodejs: /home/studentkelo/ss22-robile-people-detection/catkin_ws/devel/share/gennodejs/ros/leg_tracker/msg/LegArray.js
+leg_tracker_generate_messages_nodejs: leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build.make
 
 .PHONY : leg_tracker_generate_messages_nodejs
 
 # Rule to build all files generated by this target.
-CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build: leg_tracker_generate_messages_nodejs
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build: leg_tracker_generate_messages_nodejs
 
-.PHONY : CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/build
 
-CMakeFiles/leg_tracker_generate_messages_nodejs.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/leg_tracker_generate_messages_nodejs.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/leg_tracker_generate_messages_nodejs.dir/clean
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/clean:
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -P CMakeFiles/leg_tracker_generate_messages_nodejs.dir/cmake_clean.cmake
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/clean
 
-CMakeFiles/leg_tracker_generate_messages_nodejs.dir/depend:
-	cd /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/kunal/MAS/Sem_2/SDP/repo/official/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/leg_tracker_generate_messages_nodejs.dir/depend
+leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/depend:
+	cd /home/studentkelo/ss22-robile-people-detection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/studentkelo/ss22-robile-people-detection/catkin_ws/src /home/studentkelo/ss22-robile-people-detection/catkin_ws/src/leg_tracker /home/studentkelo/ss22-robile-people-detection/catkin_ws/build /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker /home/studentkelo/ss22-robile-people-detection/catkin_ws/build/leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : leg_tracker/CMakeFiles/leg_tracker_generate_messages_nodejs.dir/depend
 
