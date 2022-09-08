@@ -53,6 +53,17 @@ The package publishes multiple topics.
 More details for each topic can be found by running one of the demo files, such as catkin_ws/src/leg_tracker/launch/demos/demo_stationary_simple_environment.launch. Once the demo is running, open a terminal, navigate to the catkin_ws folder, and type: source devel/setup.bash. To see all the ros topics, run: rostopic list. You can view 1 message from a topic by running: rostopic echo topic_name -n 1. If you want to see all messages, omit the -n 1. The header and contents of the message should be self explanatory, but details can be found in the parent repositories. 
 
 # Tunable parameters
+To add a parameter to the launch file, use the following format: 
+
+<param name="parameter_name" value="parameter_value" />
+
+Replace parameter_name and parameter_value with the appropriate names and values. Useful parameters are described below.
+
+Markup : * max_detected_clusters
+              * The maximum number of clusters that will be tracked. It does closest to farthest, not cluster size. The default value is -1, for unlimited clusters.
+          * forest_file
+              * 
+
 
 # How to retrain the leg detector
 To retrain the leg detector, a new dataset must be made for the environment that the robot will be working in (see section below). Once the dataset is made, you will need to edit extract_positive_training_clusters_PositiveStatic.launch. It can be found in /catkin_ws/src/leg_tracker/launch/training. Two parameters need to be set, the minimum number of points per cluster in line 9 and the euclidian distance between points in a cluster in line 10. These can often be left at the default values, or changed if tighter restrictions on the cluster definition are desired. 
